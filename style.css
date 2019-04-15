@@ -1,0 +1,12 @@
+convert {
+width: 25%;
+margin-right: 10px;
+}
+button {
+background-color: blue;
+opacity: 0.7;
+border: none;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+}

@@ -1,0 +1,31 @@
+<body>
+  <div class="menu">
+    <ul>
+      <li class="block">Главная</li>
+      <li class="block">Галерея</li>
+      <li class="block">Ссылки</li>
+      <li class="block">Контакты</li>
+    </ul>
+  </div>
+</body>
+
+
+
+
+
+
+.block {
+  border: 1px solid black;
+  height: 30px;
+  width: 80px; 
+  border-radius: 10px;
+  margin: 2px;
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  transition: .3s;
+}
+.block:hover {
+  background-color: lightgreen;
+  transform: scale(2)
+}
